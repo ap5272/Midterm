@@ -1,0 +1,240 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.pageContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: ebebeb;
+}
+
+
+.lineBreak{
+  border-bottom: solid white;
+  width: 75%;
+  margin:auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.hero{
+  background-image: url(hero.jpg);
+  background-size: cover;
+
+  margin: 50px;
+  padding: 25%;
+  height: 100%;
+  color: d61313;
+  font-size: 100px;
+  text-decoration: underline overline;
+
+}
+
+.intro{
+  background-image: url(Alihero.jpg);
+  height: 100%;
+
+  padding: 20%;
+  background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: red;
+   font-family: sans-serif;
+   font-size: 25px;
+   border-style: solid;
+
+
+ }
+
+#Jack{
+
+ right: 0;
+ bottom: 0;
+ min-width: 50%;
+ min-height: 50%;
+}
+.parallax1{
+  background-image: url(greek.jpg);
+  height: 100%;
+
+  padding: 20%;
+  background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.parallax2{
+  background-image: url(jackhero.jpg);
+  height: 100%;
+  padding: 20%;
+  background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.parallax3{
+  background-image: url(joelouis.jpg);
+  height: 100%;
+  width: 50%;
+  padding: 20%;
+  background-attachment: fixed;
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.parallax4{
+  background-image: url(rockymiss.jpg);
+  height: 100%;
+  width: 50%;
+  padding: 20%;
+  background-attachment: fixed;
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.parallax5{
+  background-image: url(http://giphygifs.s3.amazonaws.com/media/N9oq9rijUWT3q/giphy.gif);
+  height: 100%;
+  width: 50%;
+  padding: 20%;
+  background-attachment: fixed;
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.parallax6{
+  background-image: url(four.jpg);
+  height: 100%;
+  width: 50%;
+  padding: 20%;
+  background-attachment: fixed;
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.parallax7{
+  background-image: url(mikecolor.jpg);
+  height: 100%;
+  width: 50%;
+  padding: 20%;
+  background-attachment: fixed;
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.parallax8{
+  background-image: url(https://media.giphy.com/media/l2NRZAQxkhooU/giphy.gif);
+  height: 100%;
+  width: 50%;
+  padding: 20%;
+  background-attachment: fixed;
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.midhero{
+  background-image: url(middle.jpg);
+  background-size: cover;
+
+  margin: 50px;
+  padding: 25%;
+  height: 100%;
+  color: ccc;
+  border: 2px solid blue;
+  border-radius: 25px;
+  font-size: 50px;
+
+}
+
+.middle{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.oldAge{
+  background-color: black;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+
+
+.title{
+  font-size: 60px;
+    font-family: serif;
+}
+
+.title > span{
+  color: daa520;
+}
+.oldCh{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(brick.jpg);
+  background-repeat:repeat-y;
+  background-size: cover;
+
+}
+
+.oldCh > img{
+  width: 50%;
+
+}
+.oldtxt{
+
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 2%;
+  font-size: 24px;
+  color: ddd;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.oldtitle{
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+}
+
+.newAge{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newCh{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(ring.jpg);
+  background-repeat:repeat-y;
+  background-size: cover;
+}
+
+.End{
+  background-image: url(wallquote.jpg);
+  background-size: cover;
+
+  margin: 50px;
+  padding: 25%;
+  height: 100%;
+  color: black;
+  font-size: 25px;
+
+}
