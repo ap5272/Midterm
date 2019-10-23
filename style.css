@@ -172,6 +172,11 @@ body{
 }
 
 
+.txtbox{
+  background:rgba(0,0,0,0.7);
+      min-height:400px;
+      padding:20px;
+}
 
 .title{
   font-size: 60px;
@@ -234,7 +239,32 @@ body{
   margin: 50px;
   padding: 25%;
   height: 100%;
-  color: black;
+  color: eee;
   font-size: 25px;
+
+}
+
+.navbar{
+  position: fixed;
+  left: 0;
+  top: 0%;
+
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+
+
+}
+a{
+  color: white;
+}
+
+a:hover{
+  color: red;
+  text-decoration: underline overline;
+  }
+
+a:visited{
+  color: white;
+  
 
 }
